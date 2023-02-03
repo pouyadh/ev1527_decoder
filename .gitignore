@@ -1,0 +1,7 @@
+*.bin
+*.BM
+*.dbg
+*.err
+*.hex
+*.obj
+*.rpt
