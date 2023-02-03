@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2023-02-01T13:22:13.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5Fz4qQjPA5aoye4N-yFz" compressed="false" version="20.8.14" type="device">
+  <diagram id="QGUq8b3jRyWAS1TGHu5f" name="Page-1">
+    <mxGraphModel dx="2977" dy="1167" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#272727" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-46" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=#143642;fillColor=none;dashed=1;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1562" y="356.5" width="680" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-4" value="Signal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#143642;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1192" y="129" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;strokeWidth=3;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-5" target="AfwEGC1GfQbpk3VlEXiL-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-5" value="&lt;font face=&quot;Katibeh&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Katibeh&quot; style=&quot;font-size: 20px;&quot;&gt;اعتبارسنجی پالس&lt;br style=&quot;font-size: 20px;&quot;&gt;Preamble&lt;br style=&quot;font-size: 20px;&quot;&gt;Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1322" y="219" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-14" value="مد شناسایی &lt;br&gt;Detect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1552" y="379" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-16" value="مد امن &lt;br&gt;Safe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1282" y="379" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-18" value="مد انطباق &lt;br&gt;Match" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1032" y="379" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-19" value="فراخوانی سابروتین&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;_ev1527d_detected" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1582" y="929" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-20" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Katibeh&quot; face=&quot;Katibeh&quot; style=&quot;font-size: 20px;&quot;&gt;راستی آزمایی&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1297" y="629" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-21" value="تاخیر رهایی کلید" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1297" y="759" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-23" value="فراخوانی سابروتین&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;_ev1527d_safe_detected" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1312" y="929" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-25" value="راستی آزمایی" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1047" y="629" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-26" value="تاخیر رهایی کلید" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1047" y="759" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-28" value="فراخوانی سابروتین&amp;nbsp;&lt;br style=&quot;font-size: 20px;&quot;&gt;_ev1527d_match_detected" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1062" y="929" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-30" value="انطباق با کد هدف" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-1047" y="499" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-32" value="_ev1527_decoder.bas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#143642;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1550" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-47" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.103;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-46" target="AfwEGC1GfQbpk3VlEXiL-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1492" y="469" as="sourcePoint" />
+            <mxPoint x="-1212" y="609" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-48" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-46" target="AfwEGC1GfQbpk3VlEXiL-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1222" y="469" as="sourcePoint" />
+            <mxPoint x="-1482" y="939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-49" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-20" target="AfwEGC1GfQbpk3VlEXiL-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1182" y="729" as="sourcePoint" />
+            <mxPoint x="-1212" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-50" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-21" target="AfwEGC1GfQbpk3VlEXiL-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1202.72" y="462.45000000000005" as="sourcePoint" />
+            <mxPoint x="-1202" y="649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-51" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.868;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-46" target="AfwEGC1GfQbpk3VlEXiL-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-972" y="449" as="sourcePoint" />
+            <mxPoint x="-1192" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-52" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-30" target="AfwEGC1GfQbpk3VlEXiL-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1182.72" y="482.45000000000005" as="sourcePoint" />
+            <mxPoint x="-1182" y="669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-53" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-25" target="AfwEGC1GfQbpk3VlEXiL-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1172.72" y="492.45000000000005" as="sourcePoint" />
+            <mxPoint x="-1172" y="679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-54" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpSize=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" source="AfwEGC1GfQbpk3VlEXiL-26" target="AfwEGC1GfQbpk3VlEXiL-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1162.72" y="502.45000000000005" as="sourcePoint" />
+            <mxPoint x="-1162" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfwEGC1GfQbpk3VlEXiL-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;strokeWidth=3;fontFamily=Katibeh;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKatibeh;fontSize=20;fontColor=default;fillColor=#FAE5C7;jumpSize=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" parent="1" target="AfwEGC1GfQbpk3VlEXiL-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1197" y="149" as="sourcePoint" />
+            <mxPoint x="-1247" y="199" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1247" y="149" />
+              <mxPoint x="-1192" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
