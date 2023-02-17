@@ -27,8 +27,8 @@
 
    'After recognizing the code , You need to release the key
    'And wait for the release delay to end (in mili-secound)
-   'When _ev1527d_release_delay_ms is equal to 0, Timer0 is free to use for other purposes
-   'When _ev1527d_release_delay_ms is more than 0, Timer0 will be used and can't be used for anything else
+   'When _ev1527d_release_delay_ms is equal to 0, Timer2 is free to use for other purposes
+   'When _ev1527d_release_delay_ms is more than 0, Timer2 will be used and can't be used for anything else
    'Default: 1000
    Const _ev1527d_release_delay_ms = 500
 
@@ -47,12 +47,12 @@
 
    #if _ev1527d_release_delay_ms > 0
 
-      'Timer0 calculation
-      Const _ev1527d_timer0_prescale_min = 1 / 10 ^ 3 * _xtal / 256
-      Const _ev1527d_timer0_prescale = 8 ^ Fix(log(_ev1527d_timer0_prescale_min) / Log(8) + 1)
-      Const _ev1527d_timer0_frequency = _xtal / _ev1527d_timer0_prescale
-      Const _ev1527d_timer0_cycles_per_us = _ev1527d_timer0_frequency / 10 ^ 6
-      Const _ev1527d_timer0_cycles_per_ms = _ev1527d_timer0_frequency / 10 ^ 3
+      'Timer2 calculation
+      Const _ev1527d_timer2_prescale_min = 1 / 10 ^ 3 * _xtal / 256
+      Const _ev1527d_timer2_prescale = 8 ^ Fix(log(_ev1527d_timer2_prescale_min) / Log(8) + 1)
+      Const _ev1527d_timer2_frequency = _xtal / _ev1527d_timer2_prescale
+      Const _ev1527d_timer2_cycles_per_us = _ev1527d_timer2_frequency / 10 ^ 6
+      Const _ev1527d_timer2_cycles_per_ms = _ev1527d_timer2_frequency / 10 ^ 3
 
    #endif
 
@@ -103,7 +103,7 @@
 
    #if _ev1527d_release_delay_ms > 0
 
-      On Compare0 _ev1527d_ocr0i
+      On Compare2 _ev1527d_ocr2i
 
    #endif
 
@@ -143,11 +143,11 @@ _ev1527d_start:
 
    #if _ev1527d_release_delay_ms > 0
 
-      Config Timer0 = Timer , Prescale = _ev1527d_timer0_prescale
-      Tccr0.wgm01 = 1                                       'CTC
-      Ocr0 = _ev1527d_timer0_cycles_per_ms
-      Start Timer0
-      Enable Compare0
+      Config Timer2 = Timer , Prescale = _ev1527d_timer2_prescale
+      Tccr2.3 = 1                                       'CTC
+      Ocr2 = _ev1527d_timer2_cycles_per_ms
+      Start Timer2
+      Enable Compare2
 
    #endif
 
@@ -165,8 +165,8 @@ _ev1527d_stop:
 
    #if _ev1527d_release_delay_ms > 0
 
-      Stop Timer0 : Tcnt0 = 0
-      Disable Compare0 : Set Tifr.ocf0
+      Stop Timer2 : Tcnt2 = 0
+      Disable Compare2 : Set Tifr.ocf2
       _ev1527d_no_previous_match_ms = 0
       _ev1527d_no_target_match_ms = 0
 
@@ -179,7 +179,7 @@ Return
 
 #if _ev1527d_release_delay_ms > 0
 
-   _ev1527d_ocr0i:
+   _ev1527d_ocr2i:
 
       If _ev1527d_no_previous_match_ms <> &HFFFF _
       Then Incr _ev1527d_no_previous_match_ms
